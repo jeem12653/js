@@ -49,7 +49,8 @@ ul#ul1 {
                     speed=0;    
                     oUl.appendChild (oUl.children[0]);    
                     t && clearInterval(t);    
-                    t = null;      
+                    t = null;    
+                    o && clearTimeout(o);    
                     o=setTimeout(funny,1000);    
                     }    
                oUl.style.left = speed + "px";    
